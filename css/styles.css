@@ -1,0 +1,164 @@
+/*******************TAG SELECTOR**********************/
+body {
+  margin: 0;
+  text-align: center;
+font-family: comic;
+}
+
+h1{
+font-size: 5.625rem;
+margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+color: #311D3F;
+}
+
+h2{
+font-family: 'Roboto', sans-serif;
+font-size: 2.5rem;
+color: #311D3F;
+font-weight: normal;
+}
+
+h3{
+font-family: 'Roboto', sans-serif;
+color: #311D3F;
+}
+
+p{
+  line-height: 2;
+  font-family: 'Roboto', sans-serif;
+}
+hr {
+  border:dotted 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+a{
+color: #311D3F;
+font-family: 'Roboto', sans-serif;
+margin: 10px 20px 10px 20px;
+text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+/*********************CLASS SELECTORS***************/
+.top-container
+{
+  background-color: #88304E;
+  position:relative;
+  padding-top: 300px;
+}
+.middle-container{
+ font-family: 'Roboto', sans-serif;
+ color: #40514E;
+
+}
+.bottom-container{
+font-family: 'Roboto', sans-serif;
+margin-top: 100px;
+background-color: #88304E;
+padding: 50px 0 20px;
+
+}
+.Pro{
+  text-decoration: underline;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom: 300px;
+}
+.bottom-cloud2{
+  position: absolute;
+  left:70%;
+  bottom: 100px;
+}
+.top-cloud{
+  position:absolute;
+  right: 300px;
+  top: 50px;
+}
+.top2-cloud{
+  position:absolute;
+  left: 30px;
+  top: 80px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  overflow: auto;
+}
+.profilbild{
+  width: 25%;
+}
+.skill1{
+  width: 45%;
+  margin-right: 25px;
+  float: left;
+}
+.skill2{
+  width: 45%;
+  margin-left: 20px;
+  float: right;
+}
+
+.skills{
+  margin-top: 100px;
+}
+.hallotext{
+  color:#40514E;
+  width: 30%;
+  margin: auto;
+}
+.skillbeschreibung{
+  color:#66BFBF;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+.copyright{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding:20px 0px;
+  }
+.btn {
+  background: #E23E57;
+  background-image: -webkit-linear-gradient(top, #E23E57, #311D3F);
+  background-image: -moz-linear-gradient(top, #E23E57, #311D3F);
+  background-image: -ms-linear-gradient(top, #E23E57, #311D3F);
+  background-image: -o-linear-gradient(top, #E23E57, #311D3F);
+  background-image: linear-gradient(to bottom, #E23E57, #311D3F);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Roboto', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.berry {
+  background-color:  #88304E;
+  padding:10px 30px;
+  font-style: 'Robot';
+  font-weight:bold;
+}
+
+/*********************ID SELECTORS***************/
